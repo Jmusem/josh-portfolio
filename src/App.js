@@ -31,12 +31,13 @@ function useParallax(ref, strength = 25) {
 }
 
 // === Navbar ===
+// === Navbar ===
 function Navbar() {
   const navItems = ['Home', 'About', 'Projects', 'Contributions', 'Contact'];
 
   return (
     <motion.nav
-      className="navbar navbar-dark navbar-custom px-4 py-3"
+      className="navbar navbar-dark navbar-custom px-4 py-3 d-none d-lg-flex"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, type: 'spring' }}
@@ -45,8 +46,7 @@ function Navbar() {
         Joshua Musembi
       </a>
 
-      {/* Desktop nav items only */}
-      <ul className="navbar-nav ms-auto d-none d-lg-flex">
+      <ul className="navbar-nav ms-auto d-flex flex-row">
         {navItems.map((item, i) => (
           <motion.li
             key={i}
