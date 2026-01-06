@@ -259,7 +259,7 @@ function Contributions() {
         transition={{ delay: 0.2 }}
       >
         I have contributed to the following projects: <br />
-        <strong>Gokijany Website, CFT Mobile App, Tetrapak Mobile App</strong> <br />
+        <strong>Gokijany Website, Microsoft Dynamics Business Dynamics Central Project for Fundilima (Jkuat Staff Sacco), Kentours and Ruai Endelea Sacco</strong> <br />
         I am quite efficient in all software solutions.
       </motion.p>
     </section>
@@ -324,6 +324,7 @@ export default function App() {
               'espace-fragrance',
               'orders-system',
               'pethealth',
+              'KENTOURS-APP',
               'Point-of-Sale-System',
             ].includes(repo.name)
         );
@@ -333,19 +334,26 @@ export default function App() {
             name: 'Invasion Website',
             description: 'Revival Invasion Movement official website',
             homepage: 'https://revivalinvasionmovement.org',
-            html_url: '#',
+           
           },
           {
             name: 'Fundilima App',
             description:
-              'A mobile app built using Angular and Ionic for JKUAT SACCO to enable mobile transactions (demo - physical).',
-            html_url: '#',
+              'A mobile app built using Angular and Ionic for JKUAT STAFF SACCO to enable mobile transactions Manage Sacco Member Transactions(demo - physical). Github repo is private,',
+           
           },
           {
             name: 'RUAI SACCO App',
             description:
-              'A mobile app built using Angular and Ionic for RUAI SACCO to enable mobile transactions (demo - physical).',
-            html_url: '#',
+              'A mobile app built using Angular and Ionic for RUAI SACCO to enable mobile transactions  Manage Sacco Member Transactions (demo - physical). Github repo is private, ',
+            
+          },
+
+          {
+            name: 'KENTOURS SACCO APP',
+            description:
+              'A mobile app built using Angular and Ionic for KENTOURS SACCO to enable mobile transactions  Manage Sacco Member Transactions (demo - physical). Github repo is private, ',
+            
           },
         ];
 
